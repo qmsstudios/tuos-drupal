@@ -1,0 +1,7 @@
+// phpcs:ignoreFile
+import{N as a}from"./navigation-card-BJJ1xNtJ.js";import{N as n}from"./navigation-card.stories.data-lwfuXkL6.js";import{C as i}from"./constants-DyyrGQu8.js";import"./twig-DV4g_c5C.js";import"./_commonjsHelpers-C4iS2aBk.js";import"./image-CfJAamwf.js";import"./icon-De8ZERzE.js";import"./heading-Qdw9vS4K.js";import"./link-DcuBT3V7.js";import"./text-icon-CbQBtcqi.js";import"./paragraph-BxGZvWqG.js";const N={title:"Molecules/List/Navigation Card",component:a,argTypes:{theme:{control:{type:"radio"},options:["light","dark"]},title:{control:{type:"text"}},summary:{control:{type:"text"}},link:{control:{type:"object"}},image:{control:{type:"object"}},image_as_icon:{control:{type:"boolean"}},icon:{control:{type:"select"},options:i.ICONS},image_over:{control:{type:"text"}},content_top:{control:{type:"text"}},content_middle:{control:{type:"text"}},content_bottom:{control:{type:"text"}},modifier_class:{control:{type:"text"}},attributes:{control:{type:"text"}}}},t={parameters:{layout:"centered"},args:n.args("light")};var o,e,r;t.parameters={...t.parameters,docs:{...(o=t.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  parameters: {
+    layout: 'centered'
+  },
+  args: NavigationCardData.args('light')
+}`,...(r=(e=t.parameters)==null?void 0:e.docs)==null?void 0:r.source}}};const _=["NavigationCard"];export{t as NavigationCard,_ as __namedExportsOrder,N as default};
